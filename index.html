@@ -13,7 +13,7 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-warning shadow">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning shadow fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">William Lee</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,13 +25,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#AboutME">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Project</a>
+              <a class="nav-link" href="#Project">Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Me</a>
+              <a class="nav-link" href="#id">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -51,7 +51,7 @@
       </svg>
     </section>
 
-    <section>
+    <section id="AboutME">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffd700"
@@ -61,14 +61,14 @@
       </svg>
       <div class="bg-warning"></div>
       <div class="container"></div>
-      <div class="row text-center mb-3">
+      <div class="text-center mb-3">
         <div class="col">
           <h2>About Me</h2>
         </div>
       </div>
       <div class="row justify-content-center fs-5">
-        <div class="col-3"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum est dolore maxime rem necessitatibus deserunt pariatur ad accusamus reprehenderit saepe?</p></div>
-        <div class="col-3"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quia incidunt beatae molestias explicabo accusantium inventore, necessitatibus culpa iusto repellat!</p></div>
+        <div class="col-3-mb4"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum est dolore maxime rem necessitatibus deserunt pariatur ad accusamus reprehenderit saepe?</p></div>
+        <div class="col-3-mb4"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quia incidunt beatae molestias explicabo accusantium inventore, necessitatibus culpa iusto repellat!</p></div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -94,7 +94,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-50">
+          <div class="col-md-50">
             <div class="card">
               <img src="img/804599954592104508.png" class="card-img-top" alt="Project 1" />
               <div class="card-body">
@@ -114,7 +114,62 @@
           </div>
         </div>
       </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffd700"
+          fill-opacity="1"
+          d="M0,128L24,138.7C48,149,96,171,144,197.3C192,224,240,256,288,229.3C336,203,384,117,432,90.7C480,64,528,96,576,122.7C624,149,672,171,720,165.3C768,160,816,128,864,133.3C912,139,960,181,1008,181.3C1056,181,1104,139,1152,117.3C1200,96,1248,96,1296,106.7C1344,117,1392,139,1416,149.3L1440,160L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
+        ></path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffd700"
+          fill-opacity="1"
+          d="M0,128L24,138.7C48,149,96,171,144,197.3C192,224,240,256,288,229.3C336,203,384,117,432,90.7C480,64,528,96,576,122.7C624,149,672,171,720,165.3C768,160,816,128,864,133.3C912,139,960,181,1008,181.3C1056,181,1104,139,1152,117.3C1200,96,1248,96,1296,106.7C1344,117,1392,139,1416,149.3L1440,160L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"
+        ></path>
+      </svg>
     </section>
+
+    5
+
+    <section id="id">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" />
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#ffd700"
+        fill-opacity="1"
+        d="M0,256L24,266.7C48,277,96,299,144,277.3C192,256,240,192,288,176C336,160,384,192,432,218.7C480,245,528,267,576,256C624,245,672,203,720,197.3C768,192,816,224,864,224C912,224,960,192,1008,176C1056,160,1104,160,1152,181.3C1200,203,1248,245,1296,266.7C1344,288,1392,288,1416,288L1440,288L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
+      ></path>
+    </svg>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
